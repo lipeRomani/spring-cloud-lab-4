@@ -1,0 +1,8 @@
+spring:
+  profiles:
+      active: ${PROFILE}
+  application:
+    name: lab4-eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8001
